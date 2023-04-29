@@ -14,17 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ 16.14.0 ]
+        node-version: '16.14.0'
     steps:
       # 拉取代码
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+          node-version: ${{ matrix.node-version }}
 
       # 生成静态文件
       - name: Build
         run: npm install && npm run build
+
 
       # 部署到 GitHub Pages
       - name: Deploy
