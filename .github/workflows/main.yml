@@ -1,4 +1,10 @@
 name: Deploy GitHub Pages
+run: |
+  npm cache clean --force
+  yarn cache clean
+  rm -rf node_modules
+  rm -f yarn.lock
+  rm -f package-lock.json
 
 on:
   push:
