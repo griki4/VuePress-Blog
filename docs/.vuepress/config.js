@@ -1,4 +1,10 @@
 module.exports = {
+    head: [
+        [
+            'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
+            { rel: 'icon', href: 'tou.jpg' }
+        ]
+    ],
     title: '打灰的博客',
     description: '提桶跑路',
     theme: 'reco',
@@ -38,6 +44,7 @@ module.exports = {
     ],
     themeConfig: {
         subSidebar: 'auto',
+        lastUpdated: '上次更新：',
         nav: [
             { text: "首页", link: "/" },
             {
@@ -62,6 +69,24 @@ module.exports = {
                 children: [
                     { title: "HTML语义化标签", path: "/handbook/01_HTML_semantic_tags" },
                     { title: "HTML5新特性", path: "/handbook/2" },
+                ]
+            },
+            {
+                title: 'JavaScript Algorithm',
+                path: '/algorithm/greedy/02_swing_sequence',
+                collapsable: true,
+                children: [
+                    {title: "分发饼干（贪心）", path: "/algorithm/greedy/01_handing_out_cookies"},
+                    {title: "摆动序列（贪心）", path: "/algorithm/greedy/02_swing_sequence"},
+                    {title: "最大子序和（贪心）", path: "/algorithm/greedy/03_maximum_subarray"},
+                ]
+            },
+            {
+                title: '零散项目经验',
+                path: "/project/01_component_library",
+                collapsable: true,
+                children: [
+                    {title: 'Vue3组件库', path: "/project/01_component_library"}
                 ]
             }
         ]
