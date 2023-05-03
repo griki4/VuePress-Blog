@@ -1,9 +1,6 @@
 module.exports = {
     head: [
-        [
-            'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
-            { rel: 'icon', href: 'tou.jpg' }
-        ]
+        ['link', { rel: 'icon', href: 'favicon.ico'}]
     ],
     title: '打灰的博客',
     description: '提桶跑路',
@@ -79,6 +76,7 @@ module.exports = {
                     {title: "分发饼干（贪心）", path: "/algorithm/greedy/01_handing_out_cookies"},
                     {title: "摆动序列（贪心）", path: "/algorithm/greedy/02_swing_sequence"},
                     {title: "最大子序和（贪心）", path: "/algorithm/greedy/03_maximum_subarray"},
+                    {title: "买卖股票的最佳时机II（贪心）", path: "/algorithm/greedy/04_best-time-to-buy-and-sell-stock-ii"}
                 ]
             },
             {
