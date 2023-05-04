@@ -44,13 +44,8 @@ module.exports = {
         lastUpdated: '上次更新：',
         nav: [
             { text: "首页", link: "/" },
-            {
-                text: "打灰的博客",
-                items: [
-                    { text: "语雀", link: "https://www.yuque.com/xrikis" },
-                    { text: "Github", link: "https://github.com/griki4" }
-                ]
-            }
+            { text: "语雀", link: "https://www.yuque.com/xrikis" },
+            { text: "Github", link: "https://github.com/griki4" }
         ],
         sidebar: [
             {
@@ -69,14 +64,23 @@ module.exports = {
                 ]
             },
             {
-                title: 'JavaScript Algorithm',
-                path: '/algorithm/greedy/02_swing_sequence',
+                title: 'Leetcode刷题记录',
+                path: '/algorithm/greedy/01_handing_out_cookies',
                 collapsable: true,
                 children: [
                     {title: "分发饼干（贪心）", path: "/algorithm/greedy/01_handing_out_cookies"},
                     {title: "摆动序列（贪心）", path: "/algorithm/greedy/02_swing_sequence"},
                     {title: "最大子序和（贪心）", path: "/algorithm/greedy/03_maximum_subarray"},
-                    {title: "买卖股票的最佳时机II（贪心）", path: "/algorithm/greedy/04_best-time-to-buy-and-sell-stock-ii"}
+                    {title: "买卖股票的最佳时机II（贪心）", path: "/algorithm/greedy/04_best-time-to-buy-and-sell-stock-ii"},
+                    {title : "跳跃游戏（贪心）", path : "/algorithm/greedy/05_jump-game"}
+                ]
+            },
+            {
+                title : "读书笔记",
+                path: "/readbook/Vue.js设计与实现/01_框架设计概览",
+                collapsable: true,
+                children: [
+                    {title: "Vue3框架设计思想", path : "/readbook/Vue.js设计与实现/01_框架设计概览"}
                 ]
             },
             {
