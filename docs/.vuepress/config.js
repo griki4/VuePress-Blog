@@ -2,7 +2,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: 'favicon.ico'}]
     ],
-    title: '打灰的博客',
+    title: '打灰日记',
     description: '提桶跑路',
     theme: 'reco',
     base: '/VuePress-Blog/',
@@ -72,7 +72,8 @@ module.exports = {
                     {title: "摆动序列（贪心）", path: "/algorithm/greedy/02_swing_sequence"},
                     {title: "最大子序和（贪心）", path: "/algorithm/greedy/03_maximum_subarray"},
                     {title: "买卖股票的最佳时机II（贪心）", path: "/algorithm/greedy/04_best-time-to-buy-and-sell-stock-ii"},
-                    {title : "跳跃游戏（贪心）", path : "/algorithm/greedy/05_jump-game"}
+                    {title : "跳跃游戏（贪心）", path: "/algorithm/greedy/05_jump-game"},
+                    {title: "k次取反后数组的最大和（贪心）", path: "/algorithm/greedy/06_maximize-sum-of-array-after-k-negations"}
                 ]
             },
             {
