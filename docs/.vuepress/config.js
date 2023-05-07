@@ -83,7 +83,8 @@ module.exports = {
                 path: "/readbook/Vue.js设计与实现/01_框架设计概览",
                 collapsable: true,
                 children: [
-                    {title: "Vue3框架设计思想", path : "/readbook/Vue.js设计与实现/01_框架设计概览"}
+                    {title: "Vue3框架设计思想", path : "/readbook/Vue.js设计与实现/01_框架设计概览"},
+                    {title: "Vue3响应式系统", path: "/readbook/Vue.js设计与实现/02_Vue3响应式系统"}
                 ]
             },
             {
