@@ -75,7 +75,8 @@ module.exports = {
                     {title: "买卖股票的最佳时机II（贪心）", path: "/algorithm/greedy/04_best-time-to-buy-and-sell-stock-ii"},
                     {title : "跳跃游戏（贪心）", path: "/algorithm/greedy/05_jump-game"},
                     {title: "k次取反后数组的最大和（贪心）", path: "/algorithm/greedy/06_maximize-sum-of-array-after-k-negations"},
-                    {title: "加油站（贪心）", path: "/algorithm/greedy/07_gas-station"}
+                    {title: "加油站（贪心）", path: "/algorithm/greedy/07_gas-station"},
+                    {title: "分发糖果（贪心）", path: "/algorithm/greedy/08_candy"}
                 ]
             },
             {
