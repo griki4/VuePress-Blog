@@ -76,7 +76,9 @@ module.exports = {
                     {title : "跳跃游戏（贪心）", path: "/algorithm/greedy/05_jump-game"},
                     {title: "k次取反后数组的最大和（贪心）", path: "/algorithm/greedy/06_maximize-sum-of-array-after-k-negations"},
                     {title: "加油站（贪心）", path: "/algorithm/greedy/07_gas-station"},
-                    {title: "分发糖果（贪心）", path: "/algorithm/greedy/08_candy"}
+                    {title: "分发糖果（贪心）", path: "/algorithm/greedy/08_candy"},
+                    {title: "柠檬水找零（贪心）", path: "/algorithm/greedy/09_lemonade-change"},
+                    {title: "根据身高重建队列（贪心）", path: "/algorithm/greedy/10_queue-reconstruction-by-height"}
                 ]
             },
             {

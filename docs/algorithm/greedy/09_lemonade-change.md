@@ -1,5 +1,5 @@
 ---
-title:柠檬水找零
+title: 柠檬水找零
 ---
 [力扣860-柠檬水找零](https://leetcode.cn/problems/lemonade-change/description/)
 
