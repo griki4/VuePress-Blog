@@ -78,7 +78,8 @@ module.exports = {
                     {title: "加油站（贪心）", path: "/algorithm/greedy/07_gas-station"},
                     {title: "分发糖果（贪心）", path: "/algorithm/greedy/08_candy"},
                     {title: "柠檬水找零（贪心）", path: "/algorithm/greedy/09_lemonade-change"},
-                    {title: "根据身高重建队列（贪心）", path: "/algorithm/greedy/10_queue-reconstruction-by-height"}
+                    {title: "根据身高重建队列（贪心）", path: "/algorithm/greedy/10_queue-reconstruction-by-height"},
+                    {title: "用最少的箭引爆气球（贪心）", path: "/algorithm/greedy/11_minimum-number-of-arrows-to-burst-balloons"}
                 ]
             },
             {
