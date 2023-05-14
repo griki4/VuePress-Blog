@@ -56,12 +56,20 @@ module.exports = {
                 children: [{ title: "博客简介", path: "/" }],
             },
             {
-                title: "HTML/CSS",
-                path: "/handbook/01_HTML_semantic_tags",
+                title: "HTML",
+                path: "/html/01_HTML_semantic_tags",
                 collapsable: true,
                 children: [
-                    { title: "HTML语义化标签", path: "/handbook/01_HTML_semantic_tags" },
-                    { title: "HTML5新特性", path: "/handbook/2" },
+                    { title: "HTML语义化标签", path: "/html/01_HTML_semantic_tags"},
+                    { title: "HTML5新特性", path: "/html/2" },
+                ]
+            },
+            {
+                title: "CSS",
+                path: "/css/01_CSS动画",
+                collapsable: true,
+                children: [
+                    {title: "CSS动画", path: "/css/01_CSS动画"}
                 ]
             },
             {
@@ -80,7 +88,8 @@ module.exports = {
                     {title: "柠檬水找零（贪心）", path: "/algorithm/greedy/09_lemonade-change"},
                     {title: "根据身高重建队列（贪心）", path: "/algorithm/greedy/10_queue-reconstruction-by-height"},
                     {title: "用最少的箭引爆气球（贪心）", path: "/algorithm/greedy/11_minimum-number-of-arrows-to-burst-balloons"},
-                    {title: "无重叠区间（贪心）", path: "/algorithm/greedy/12_non-overlapping-intervals"}
+                    {title: "无重叠区间（贪心）", path: "/algorithm/greedy/12_non-overlapping-intervals"},
+                    {title: "划分字母区间（贪心）", path: "/algorithm/greedy/13_partition-labels"}
                 ]
             },
             {
