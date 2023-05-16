@@ -89,7 +89,9 @@ module.exports = {
                     {title: "根据身高重建队列（贪心）", path: "/algorithm/greedy/10_queue-reconstruction-by-height"},
                     {title: "用最少的箭引爆气球（贪心）", path: "/algorithm/greedy/11_minimum-number-of-arrows-to-burst-balloons"},
                     {title: "无重叠区间（贪心）", path: "/algorithm/greedy/12_non-overlapping-intervals"},
-                    {title: "划分字母区间（贪心）", path: "/algorithm/greedy/13_partition-labels"}
+                    {title: "划分字母区间（贪心）", path: "/algorithm/greedy/13_partition-labels"},
+                    {title: "合并区间（贪心）", path: "/algorithm/greedy/14_merge-intervals"},
+                    {title: "单调递增的数字（贪心）", path: "/algorithm/greedy/15_monotone-increasing-digits"}
                 ]
             },
             {
