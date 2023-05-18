@@ -1,6 +1,6 @@
 module.exports = {
     head: [
-        ['link', { rel: 'icon', href: 'favicon.ico'}]
+        ['link', { rel: 'icon', href: '/logo.png' }]
     ],
     title: '打灰日记',
     description: '提桶跑路',
@@ -91,7 +91,8 @@ module.exports = {
                     {title: "无重叠区间（贪心）", path: "/algorithm/greedy/12_non-overlapping-intervals"},
                     {title: "划分字母区间（贪心）", path: "/algorithm/greedy/13_partition-labels"},
                     {title: "合并区间（贪心）", path: "/algorithm/greedy/14_merge-intervals"},
-                    {title: "单调递增的数字（贪心）", path: "/algorithm/greedy/15_monotone-increasing-digits"}
+                    {title: "单调递增的数字（贪心）", path: "/algorithm/greedy/15_monotone-increasing-digits"},
+                    {title: "斐波那契数（DP）", path: "/algorithm/dynamic_programming/01_fibonacci-number"}
                 ]
             },
             {
