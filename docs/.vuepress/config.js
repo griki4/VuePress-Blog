@@ -92,7 +92,9 @@ module.exports = {
                     {title: "划分字母区间（贪心）", path: "/algorithm/greedy/13_partition-labels"},
                     {title: "合并区间（贪心）", path: "/algorithm/greedy/14_merge-intervals"},
                     {title: "单调递增的数字（贪心）", path: "/algorithm/greedy/15_monotone-increasing-digits"},
-                    {title: "斐波那契数（DP）", path: "/algorithm/dynamic_programming/01_fibonacci-number"}
+                    {title: "斐波那契数（DP）", path: "/algorithm/dynamic_programming/01_fibonacci-number"},
+                    {title: "爬楼梯（DP）", path: "/algorithm/dynamic_programming/02_climbing-stairs"},
+                    {title: "不同路径（DP）", path: "/algorithm/dynamic_programming/03_unique-paths-ii"}
                 ]
             },
             {
