@@ -94,7 +94,9 @@ module.exports = {
                     {title: "单调递增的数字（贪心）", path: "/algorithm/greedy/15_monotone-increasing-digits"},
                     {title: "斐波那契数（DP）", path: "/algorithm/dynamic_programming/01_fibonacci-number"},
                     {title: "爬楼梯（DP）", path: "/algorithm/dynamic_programming/02_climbing-stairs"},
-                    {title: "不同路径（DP）", path: "/algorithm/dynamic_programming/03_unique-paths-ii"}
+                    {title: "不同路径（DP）", path: "/algorithm/dynamic_programming/03_unique-paths-ii"},
+                    {title: "整数拆分（DP）", path: "/algorithm/dynamic_programming/04_integer-break"},
+                    {title: "不同的二叉搜索树（DP）", path: "/algorithm/dynamic_programming/05_unique-binary-search-trees"}
                 ]
             },
             {
