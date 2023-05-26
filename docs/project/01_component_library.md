@@ -136,4 +136,32 @@ plugin: [
 `gulp`除了用于打包样式文件，自身还是非常优秀的流程控制工具。本项目还借助其实现了：自动删除上一次构建的代码、
 并行构建组件源码和样式等功能。
 
+## 踩坑
+
+### Markdown渲染问题
+
+`Vitepress`采用的`markdown-it`默认将图片渲染成块级元素。导致组件在项目中显示正常但是在文档中显示异常。
+
+解决办法：单独为插入的图片定义样式 `display:inline-block`
+
+### Vue3 TS自定义组件样式问题
+
+`Vue3`中希望使用`style`自定义组件样式时，`TS`对于`style`的约束应为
+```vue
+<script setup lang="ts">
+import { CSSProperties } from "vue"
+
+export type IconProps = {
+  style?: CSSProperties
+}
+</script>
+```
+而在使用`style`传入自定义样式时，应该写成
+```vue
+<template>
+  <Icon :style="{'width': '25px', 'fill': 'red'}"></Icon>
+</template>
+```
+`fill`表示原来的`color`样式。
+
 
