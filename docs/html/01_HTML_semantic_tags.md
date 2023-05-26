@@ -4,12 +4,13 @@ title: HTML语义化标签
 
 ## 语义化标签种类
 HTML新增的语义化标签主要有
-- `<header>`
-- `<footer>`
-- `<nav>`
-- `<aside>`
-- `<select>`
-- `<article>`
+- `<header>` 头部
+- `<footer>` 底部
+- `<nav>` 导航栏
+- `<aside>` 侧边栏
+- `<section>` 区块，相当于一个语义化的div
+- `<main>` 主要区域
+- `<article>` 主要内容
 
 ## 语义化的好处
 对浏览器而言：

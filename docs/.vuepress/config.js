@@ -61,7 +61,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     { title: "HTML语义化标签", path: "/html/01_HTML_semantic_tags"},
-                    { title: "HTML5新特性", path: "/html/2" },
+                    { title: "HTML5新特性", path: "/html/2_HTML5" },
                 ]
             },
             {
@@ -69,7 +69,8 @@ module.exports = {
                 path: "/css/01_CSS动画",
                 collapsable: true,
                 children: [
-                    {title: "CSS动画", path: "/css/01_CSS动画"}
+                    {title: "CSS动画", path: "/css/01_CSS动画"},
+                    {title: "CSS选择器", path: "/css/02_CSS选择器"}
                 ]
             },
             {
@@ -96,7 +97,8 @@ module.exports = {
                     {title: "爬楼梯（DP）", path: "/algorithm/dynamic_programming/02_climbing-stairs"},
                     {title: "不同路径（DP）", path: "/algorithm/dynamic_programming/03_unique-paths-ii"},
                     {title: "整数拆分（DP）", path: "/algorithm/dynamic_programming/04_integer-break"},
-                    {title: "不同的二叉搜索树（DP）", path: "/algorithm/dynamic_programming/05_unique-binary-search-trees"}
+                    {title: "不同的二叉搜索树（DP）", path: "/algorithm/dynamic_programming/05_unique-binary-search-trees"},
+                    {title: "01背包理论基础", path: "/algorithm/dynamic_programming/06_01-bags"}
                 ]
             },
             {
