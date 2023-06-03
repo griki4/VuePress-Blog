@@ -99,7 +99,10 @@ module.exports = {
                     {title: "不同路径（DP）", path: "/algorithm/dynamic_programming/03_unique-paths-ii"},
                     {title: "整数拆分（DP）", path: "/algorithm/dynamic_programming/04_integer-break"},
                     {title: "不同的二叉搜索树（DP）", path: "/algorithm/dynamic_programming/05_unique-binary-search-trees"},
-                    {title: "01背包理论基础", path: "/algorithm/dynamic_programming/06_01-bags"}
+                    {title: "01背包理论基础", path: "/algorithm/dynamic_programming/06_01-bags"},
+                    {title: "分割等和子集（DP）", path: "/algorithm/dynamic_programming/07_partition-equal-subset-sum"},
+                    {title: "最后一块石头的重量||（DP）", path: "/algorithm/dynamic_programming/08_last-stone-weight-ii"},
+                    {title: "目标和（DP）", path: "/algorithm/dynamic_programming/09_target-sum"}
                 ]
             },
             {
@@ -108,7 +111,8 @@ module.exports = {
                 collapsable: true,
                 children: [
                     {title: "Vue3框架设计思想", path : "/readbook/Vue.js设计与实现/01_框架设计概览"},
-                    {title: "Vue3响应式系统", path: "/readbook/Vue.js设计与实现/02_Vue3响应式系统"}
+                    {title: "Vue3响应式系统", path: "/readbook/Vue.js设计与实现/02_Vue3响应式系统"},
+                    {title: "针对不同值的响应式方案", path: "/readbook/Vue.js设计与实现/03_针对不同值的响应式方案"}
                 ]
             },
             {
