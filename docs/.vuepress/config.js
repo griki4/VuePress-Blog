@@ -124,6 +124,14 @@ module.exports = {
                 children: [
                     {title: 'Vue3组件库', path: "/project/01_component_library"}
                 ]
+            },
+            {
+                title: 'Next.js',
+                path: '/framework/next/01_Next官方教程',
+                collapsable: true,
+                children: [
+                    {title: "Next.js官方教程", path: "/framework/next/01_Next官方教程"}
+                ]
             }
         ]
     }
