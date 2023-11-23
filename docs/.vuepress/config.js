@@ -38,7 +38,7 @@ module.exports = {
             }
         }
         ],
-        ['vuepress-plugin-code-copy', true]
+        ['vuepress-plugin-code-copy', false]
     ],
     themeConfig: {
         subSidebar: 'auto',
@@ -130,7 +130,8 @@ module.exports = {
                 path: '/framework/next/01_Next官方教程',
                 collapsable: true,
                 children: [
-                    {title: "Next.js官方教程", path: "/framework/next/01_Next官方教程"}
+                    {title: "Next.js官方教程", path: "/framework/next/01_Next官方教程"},
+                    {title: "Next Routing", path: "/framework/next/02_Next-Routing"}
                 ]
             }
         ]
