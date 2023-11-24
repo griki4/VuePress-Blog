@@ -131,7 +131,8 @@ module.exports = {
                 collapsable: true,
                 children: [
                     {title: "Next.js官方教程", path: "/framework/next/01_Next官方教程"},
-                    {title: "Next Routing", path: "/framework/next/02_Next-Routing"}
+                    {title: "Next Routing", path: "/framework/next/02_Next-Routing"},
+                    {title: "数据请求", path: "/framework/next/03_数据请求"}
                 ]
             }
         ]
