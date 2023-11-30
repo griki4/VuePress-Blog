@@ -134,7 +134,8 @@ module.exports = {
                     {title: "Next Routing", path: "/framework/next/02_Next-Routing"},
                     {title: "数据请求", path: "/framework/next/03_数据请求"},
                     {title: "渲染策略", path: "/framework/next/04_渲染"},
-                    {title: "缓存机制", path: "/framework/next/05_缓存策略"}
+                    {title: "缓存机制", path: "/framework/next/05_缓存策略"},
+                    {title: "优化策略", path: "/framework/next/06_优化策略"}
                 ]
             }
         ]
