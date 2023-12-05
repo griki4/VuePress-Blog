@@ -74,6 +74,14 @@ module.exports = {
                 ]
             },
             {
+                title: "JavaScript",
+                path: "/javascript/Web_Worker",
+                collapsable: true,
+                children: [
+                    {title: "Web Worker", path: "/javascript/Web_Worker"}
+                ]
+            },
+            {
                 title: 'Leetcode刷题记录',
                 path: '/algorithm/greedy/01_handing_out_cookies',
                 collapsable: true,
