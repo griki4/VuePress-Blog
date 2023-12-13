@@ -2,7 +2,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }]
     ],
-    title: '打灰日记',
+    title: '打灰笔记',
     description: '提桶跑路',
     theme: 'reco',
     base: '/VuePress-Blog/',
