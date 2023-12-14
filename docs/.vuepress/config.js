@@ -151,7 +151,8 @@ module.exports = {
                 path: "/framework/sql/01.SQL基础",
                 collapsable: true,
                 children: [
-                    {title: "SQL基础", path: "/framework/sql/01.SQL基础"}
+                    {title: "SQL基础", path: "/framework/sql/01.SQL基础"},
+                    {title: "MongoDB基础", path: "/framework/sql/02.MongoDB基础"}
                 ]
             }
         ]
