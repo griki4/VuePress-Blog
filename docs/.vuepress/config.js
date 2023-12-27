@@ -78,7 +78,8 @@ module.exports = {
                 path: "/javascript/Web_Worker",
                 collapsable: true,
                 children: [
-                    {title: "Web Worker", path: "/javascript/Web_Worker"}
+                    {title: "Web Worker", path: "/javascript/Web_Worker"},
+                    {title: "装饰器", path: "/javascript/装饰器"}
                 ]
             },
             {
