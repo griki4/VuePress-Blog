@@ -79,7 +79,8 @@ module.exports = {
                 collapsable: true,
                 children: [
                     {title: "Web Worker", path: "/javascript/Web_Worker"},
-                    {title: "装饰器", path: "/javascript/装饰器"}
+                    {title: "装饰器", path: "/javascript/装饰器"},
+                    {title: "JSON", path: "/javascript/JSON"}
                 ]
             },
             {
