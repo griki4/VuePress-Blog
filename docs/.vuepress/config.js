@@ -78,6 +78,7 @@ module.exports = {
                 path: "/javascript/Web_Worker",
                 collapsable: true,
                 children: [
+                    {title: "浅拷贝与深拷贝", path: "/javascript/浅拷贝与深拷贝"},
                     {title: "Web Worker", path: "/javascript/Web_Worker"},
                     {title: "装饰器", path: "/javascript/装饰器"},
                     {title: "JSON", path: "/javascript/JSON"},
