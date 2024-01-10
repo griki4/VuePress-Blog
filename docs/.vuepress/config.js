@@ -90,6 +90,7 @@ module.exports = {
                 path: '/algorithm/greedy/01_handing_out_cookies',
                 collapsable: true,
                 children: [
+                    {title: "二分查找（数组）", path: "/algorithm/array/01.二分查找"},
                     {title: "最长回文子串（哈希表）", path: "/algorithm/hash_map/01_longest-palindrome"},
                     {title: "分发饼干（贪心）", path: "/algorithm/greedy/01_handing_out_cookies"},
                     {title: "摆动序列（贪心）", path: "/algorithm/greedy/02_swing_sequence"},
