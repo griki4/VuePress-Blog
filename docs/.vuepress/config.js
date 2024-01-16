@@ -86,12 +86,25 @@ module.exports = {
                 ]
             },
             {
+                title: "性能优化",
+                path: "/optimization/01.网络性能优化",
+                collapsable: true,
+                children: [
+                    {title: "网络性能优化", path: "/optimization/01.网络性能优化"}
+                ]
+            },
+            {
                 title: 'Leetcode刷题记录',
                 path: '/algorithm/greedy/01_handing_out_cookies',
                 collapsable: true,
                 children: [
                     {title: "二分查找（数组）", path: "/algorithm/array/01.二分查找"},
+                    {title: "两数之和（哈希表)", path: "/algorithm/hash_map/02.两数之和"},
+                    {title: "字母异位词分组（哈希表）", path: "/algorithm/hash_map/03.字母异位词分组"},
+                    {title: "最长连续序列（哈希表）", path: "/algorithm/hash_map/04.最长连续序列"},
                     {title: "最长回文子串（哈希表）", path: "/algorithm/hash_map/01_longest-palindrome"},
+                    {title: "移动零（双指针）", path: "/algorithm/dual_pointers/01.移动零"},
+                    {title: "盛水最多的容器（双指针）", path: "/algorithm/dual_pointers/02.盛水最多的容器"},
                     {title: "分发饼干（贪心）", path: "/algorithm/greedy/01_handing_out_cookies"},
                     {title: "摆动序列（贪心）", path: "/algorithm/greedy/02_swing_sequence"},
                     {title: "最大子序和（贪心）", path: "/algorithm/greedy/03_maximum_subarray"},
