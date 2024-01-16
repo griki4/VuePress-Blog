@@ -37,8 +37,7 @@ module.exports = {
                 }
             }
         }
-        ],
-        ['vuepress-plugin-code-copy', false]
+        ]
     ],
     themeConfig: {
         subSidebar: 'auto',
@@ -90,7 +89,8 @@ module.exports = {
                 path: "/optimization/01.网络性能优化",
                 collapsable: true,
                 children: [
-                    {title: "网络性能优化", path: "/optimization/01.网络性能优化"}
+                    {title: "网络性能优化", path: "/optimization/01.网络性能优化"},
+                    {title: "存储优化", path: "/optimization/02.存储优化"}
                 ]
             },
             {
