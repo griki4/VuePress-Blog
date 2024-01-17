@@ -90,7 +90,8 @@ module.exports = {
                 collapsable: true,
                 children: [
                     {title: "网络性能优化", path: "/optimization/01.网络性能优化"},
-                    {title: "存储优化", path: "/optimization/02.存储优化"}
+                    {title: "存储优化", path: "/optimization/02.存储优化"},
+                    {title: "渲染优化", path: "/optimization/03.渲染优化"}
                 ]
             },
             {
