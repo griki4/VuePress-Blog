@@ -91,7 +91,8 @@ module.exports = {
                 children: [
                     {title: "网络性能优化", path: "/optimization/01.网络性能优化"},
                     {title: "存储优化", path: "/optimization/02.存储优化"},
-                    {title: "渲染优化", path: "/optimization/03.渲染优化"}
+                    {title: "渲染优化", path: "/optimization/03.渲染优化"},
+                    {title: "懒加载与防抖节流", path: "/optimization/04.懒加载与防抖节流"}
                 ]
             },
             {
