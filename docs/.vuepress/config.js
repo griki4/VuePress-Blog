@@ -81,7 +81,8 @@ module.exports = {
                     {title: "Web Worker", path: "/javascript/Web_Worker"},
                     {title: "装饰器", path: "/javascript/装饰器"},
                     {title: "JSON", path: "/javascript/JSON"},
-                    {title: "设计模式", path: "/javascript/设计模式"}
+                    {title: "设计模式", path: "/javascript/设计模式"},
+                    {title: "TypeScript", path: "/javascript/TypeScript"}
                 ]
             },
             {
