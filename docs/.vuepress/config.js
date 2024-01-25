@@ -97,6 +97,15 @@ module.exports = {
                 ]
             },
             {
+                title: "Node.js",
+                path: "/nodejs/01.包管理工具",
+                collapsable: true,
+                children: [
+                    {title: "包管理工具", path: "/nodejs/01.包管理工具"},
+                    {title: "前端模块化", path: "/nodejs/02.前端模块化"}
+                ]
+            },
+            {
                 title: 'Leetcode刷题记录',
                 path: '/algorithm/greedy/01_handing_out_cookies',
                 collapsable: true,
