@@ -40,7 +40,7 @@ export default function RootLayout({
 1. 避免布局跳动。
 2. 能够根据设备屏幕大小自适应调整图片尺寸。
 3. 默认懒加载图片，优化性能。
-4. 根据浏览器的支持情况，提供更加现代化的图片格式，比如WebP或者AVIF等。
+4. 根据浏览器的支持情况，提供更加现代化的图片格式，比如WebP或AVIF等。
 
 ## Layout和Page
 

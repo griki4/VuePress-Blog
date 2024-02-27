@@ -56,10 +56,10 @@ module.exports = {
             },
             {
                 title: "HTML",
-                path: "/html/01_HTML_semantic_tags",
+                path: "/html/01.HTML常用知识",
                 collapsable: true,
                 children: [
-                    { title: "HTML语义化标签", path: "/html/01_HTML_semantic_tags"},
+                    { title: "HTML常用知识", path: "/html/01.HTML常用知识"},
                     { title: "HTML5新特性", path: "/html/2_HTML5" },
                 ]
             },
