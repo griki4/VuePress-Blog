@@ -82,7 +82,8 @@ module.exports = {
                     {title: "装饰器", path: "/javascript/装饰器"},
                     {title: "JSON", path: "/javascript/JSON"},
                     {title: "设计模式", path: "/javascript/设计模式"},
-                    {title: "TypeScript", path: "/javascript/TypeScript"}
+                    {title: "TypeScript", path: "/javascript/TypeScript"},
+                    {title: "常见手写代码", path: "/javascript/常见手写代码"}
                 ]
             },
             {
